@@ -39,7 +39,7 @@ def create_auth_token(sender, instance=None, created=False, **kwargs):
 
 
 class inventionImage(models.Model):
-    image = models.ImageField(upload_to="image", blank=True)
+    image = models.ImageField(upload_to="inventionimage", blank=True)
 
 
 
